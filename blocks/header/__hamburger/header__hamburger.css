@@ -1,0 +1,11 @@
+@media (max-width: 450px) {
+  .header__hamburger {
+    background-image: url("../../../images/header-burger.svg");
+    width: 22px;
+    height: 19px;
+    display: flex;
+    position: absolute;
+    top: 28px;
+    right: 18px;
+  }
+}
