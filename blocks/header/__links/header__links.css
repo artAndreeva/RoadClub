@@ -1,0 +1,24 @@
+.header__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 34px;
+  align-items: center;
+  min-height: 74px;
+  margin-right: 120px;
+}
+
+
+@media (max-width: 640px) {
+  .header__links {
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__links {
+    display: none;
+  }
+}

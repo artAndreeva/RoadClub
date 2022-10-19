@@ -1,0 +1,13 @@
+.header__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #151515;
+  text-decoration: none;
+  transition: color .8s ease;
+}
+
+.header__link:hover {
+  color: crimson;
+}
