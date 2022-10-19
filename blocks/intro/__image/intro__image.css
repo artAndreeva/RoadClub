@@ -1,0 +1,15 @@
+.intro__image {
+  width: 100%;
+  display: block;
+  grid-column: 2;
+  grid-row: 1 / -1;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__image {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+}

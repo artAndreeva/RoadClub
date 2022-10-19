@@ -1,0 +1,25 @@
+.intro__caption {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #151515;
+  margin: 0;
+  grid-column: 1;
+  grid-row: 4;
+  padding: 117px 0 209px;
+}
+
+.intro__caption::after {
+  content: url(../../../images/intro-line.svg);
+  position: relative;
+  bottom: 5px;
+  width: 132px;
+  height: 2px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__caption {
+    display: none;
+  }
+}
