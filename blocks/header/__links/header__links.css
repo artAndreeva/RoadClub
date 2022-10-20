@@ -16,9 +16,3 @@
     margin-right: 18px;
   }
 }
-
-@media (max-width: 450px) {
-  .header__links {
-    display: none;
-  }
-}
