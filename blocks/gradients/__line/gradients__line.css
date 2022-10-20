@@ -1,0 +1,13 @@
+.gradients__line {
+  border: 0;
+  max-width: 284px;
+  height: 1px;
+  background-color: #E3E3E3;
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .gradients__line {
+    display: block;
+  }
+}

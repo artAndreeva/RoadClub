@@ -1,0 +1,16 @@
+.gradients__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  margin: 0;
+  position: relative;
+}
+
+@media screen and (max-width: 350px) {
+  .gradients__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

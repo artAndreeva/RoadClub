@@ -1,0 +1,11 @@
+.gradients__button_direction_right {
+  background-image: url(../../../../images/gradients-right-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 320px) {
+  .gradients__button_direction_right {
+    background-size: 4.5px 10px;
+  }
+}
