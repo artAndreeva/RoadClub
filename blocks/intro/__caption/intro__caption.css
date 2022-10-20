@@ -6,7 +6,6 @@
   margin: 0;
   grid-column: 1;
   grid-row: 4;
-  padding: 117px 0 209px;
 }
 
 .intro__caption::after {
@@ -18,7 +17,7 @@
   padding-left: 30px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1000px) {
   .intro__caption {
     display: none;
   }

@@ -1,4 +1,4 @@
-.intro__text {
+.intro__paragraph {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
@@ -8,12 +8,14 @@
   margin: 0;
   grid-column: 1;
   grid-row: 2;
+  margin-bottom: 50px;
 }
 
 @media screen and (max-width: 320px) {
-  .intro__text {
+  .intro__paragraph {
     font-size: 12px;
     line-height: 18px;
     grid-row: 3;
+    margin-bottom: 40px;
   }
 }

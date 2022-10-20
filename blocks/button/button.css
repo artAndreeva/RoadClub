@@ -1,0 +1,8 @@
+.button {
+  cursor: pointer;
+  transition: background-color .8s ease;
+}
+
+.button:hover {
+  background-color: #FF3D00;
+}
