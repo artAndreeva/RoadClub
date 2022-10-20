@@ -1,0 +1,12 @@
+.qoute__text {
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media (max-width: 320px) {
+  .qoute__text {
+    gap: 4px;
+  }
+}

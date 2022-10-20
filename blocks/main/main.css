@@ -3,6 +3,18 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px) {
+  .main {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    padding-left: 30px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .main {
     padding-left: 18px;

@@ -1,0 +1,15 @@
+.qoute__name {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #151515;
+}
+
+@media (max-width: 320px) {
+  .qoute__name {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
