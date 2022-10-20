@@ -1,0 +1,20 @@
+.trainings__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #151515;
+  transition: color .8s ease;
+}
+
+.trainings__link:hover {
+  color: #FF3D00;
+}
+
+@media screen and (max-width: 320px) {
+  .trainings__link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

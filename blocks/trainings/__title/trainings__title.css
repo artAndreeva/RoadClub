@@ -1,0 +1,31 @@
+.trainings__title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+  color: #151515;
+  margin: 0;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+@media screen and (max-width: 940px) {
+  .trainings__title {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .trainings__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .trainings__title {
+    border-top: 1px solid #E3E3E3;
+    padding-top: 40px;
+  }
+}
