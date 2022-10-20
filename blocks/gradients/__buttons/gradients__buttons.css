@@ -1,0 +1,12 @@
+.gradients__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .gradients__buttons {
+    gap: 10px;
+    justify-self: end;
+    align-self: center;
+  }
+}

@@ -1,0 +1,15 @@
+.gradients__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  overflow: hidden;
+  margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .gradients__list {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+}

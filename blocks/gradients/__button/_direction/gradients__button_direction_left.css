@@ -1,0 +1,12 @@
+.gradients__button_direction_left {
+  background-image: url(../../../../images/gradients-left-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 7px 16px;
+}
+
+@media screen and (max-width: 320px) {
+  .gradients__button_direction_left {
+    background-size: 4.5px 10px;
+  }
+}

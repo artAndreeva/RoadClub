@@ -1,0 +1,16 @@
+.gradients {
+  padding: 60px 0;
+  box-sizing: border-box;
+  display: grid;
+  row-gap: 50px;
+}
+
+@media screen and (max-width: 320px) {
+  .gradients {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+}
