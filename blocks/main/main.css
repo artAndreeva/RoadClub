@@ -3,11 +3,14 @@
   box-sizing: border-box;
 }
 
+
+
 @media screen and (max-width: 660px) {
   .main {
     padding-left: 60px;
   }
 }
+
 
 @media screen and (max-width: 320px) {
   .main {

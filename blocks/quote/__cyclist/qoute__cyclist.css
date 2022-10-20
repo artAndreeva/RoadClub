@@ -1,0 +1,16 @@
+.qoute__cyclist {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #222222;
+  opacity: 0.7;
+}
+
+@media (max-width: 320px) {
+  .qoute__cyclist {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
