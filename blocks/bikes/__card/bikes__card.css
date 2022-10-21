@@ -7,14 +7,14 @@
 }
 
 @media (max-width: 768px) {
-  .bikes__card:last-child {
-    display: none;
+  .bikes__card {
+    padding: 0;
   }
 }
 
-@media (max-width: 625px) {
-  .bikes__card {
-      padding: 0;
+@media (max-width: 768px) {
+  .bikes__card:last-child {
+    display: none;
   }
 }
 

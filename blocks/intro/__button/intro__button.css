@@ -15,12 +15,17 @@
   margin-bottom: 167px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
+  .intro__button {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .intro__button {
     width: 100%;
     font-size: 13px;
     line-height: 19px;
-    margin-bottom: 0;
     grid-row: 4;
   }
 }

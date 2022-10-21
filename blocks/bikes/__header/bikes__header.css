@@ -5,7 +5,7 @@
   margin-bottom: 54px;
 }
 
-@media (max-width: 625px) {
+@media (max-width: 768px) {
 .bikes__header {
     padding: 40px 0 0;
     flex-direction: column;

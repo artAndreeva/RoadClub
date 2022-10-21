@@ -12,12 +12,12 @@
   }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .qoute__img {
     max-width: 284px;
     min-height: 204px;
   }
-}
+} */
 
 @media (max-width: 425px) {
   .qoute__img {

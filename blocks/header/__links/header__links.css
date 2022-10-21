@@ -10,6 +10,12 @@
   margin-right: 120px;
 }
 
+@media (max-width: 768px) {
+  .header__links {
+    margin-right: 60px;
+  }
+}
+
 
 @media (max-width: 640px) {
   .header__links {
