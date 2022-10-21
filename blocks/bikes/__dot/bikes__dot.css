@@ -7,6 +7,6 @@
 }
 
 .bikes__dot:hover {
-  background: crimson;
+  background: #FF3D00;
   transition: .5s;
 }
