@@ -1,0 +1,22 @@
+.footer__subscribe {
+  margin-bottom: 100px;
+  width: 360px;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__subscribe {
+    width: 284px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer__subscribe {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__subscribe {
+    width: 284px;
+  }
+}

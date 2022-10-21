@@ -1,0 +1,23 @@
+.footer__subscribe-field {
+  width: 100%;
+  font-family: inherit;
+  padding-left: 20px;
+  box-sizing: border-box;
+  height: 50px;
+  border: 1px solid #C7C7C780;
+  border-radius: 4px;
+  background-color: #EFEFEF;
+}
+
+.footer__subscribe-field:focus {
+  outline: none;
+  border: 1px solid #FF3D0080;
+}
+
+.footer__subscribe-field::placeholder {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 28px;
+  color: #151515;
+  opacity: .7;
+}

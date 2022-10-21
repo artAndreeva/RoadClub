@@ -17,12 +17,12 @@
   <div class="page">
     <!-- header -->
     <header class="header">
-      <nav>
+      <nav class="header_menu">
         <div class="header__hamburger"></div>
         <ul class="header__links">
-          <li><a href="#" class="header__link">Покрытия и градиенты</a></li>
-          <li><a href="#" class="header__link">Велосипеды</a></li>
-          <li><a href="#" class="header__link">Тренировки</a></li>
+          <li class="header__links-item"><a href="#gradients" class="header__link">Покрытия и градиенты</a></li>
+          <li class="header__links-item"><a href="#bikes" class="header__link">Велосипеды</a></li>
+          <li class="header__links-item"><a href="#trainings" class="header__link">Тренировки</a></li>
         </ul>
       </nav>
     </header>
@@ -45,7 +45,8 @@
       <!-- quote -->
       <section class="quote">
         <img src="./images/quote-track.jpg" alt="Велосипедный трек в горах" class="qoute__img">
-        <blockquote class="quote__cite">«Катайся много или мало, долго или коротко, как хочешь - но катайся»</blockquote>
+        <blockquote class="quote__cite">«Катайся много или мало, долго или коротко, как хочешь - но катайся»
+        </blockquote>
         <div class="qoute__text">
           <p class="qoute__name">Эдди Меркс</p>
           <p class="qoute__cyclist">Велогонщик</p>
@@ -53,8 +54,24 @@
       </section>
       <!-- /quote -->
       <!-- gradients -->
-      <section class="gradients">
-
+      <section class="gradients" id="gradients">
+        <h2 class="gradients__title">Шоссе</h2>
+        <p class="gradients__text">На&nbsp;шоссейном велосипеде можно ездить по&nbsp;асфальту на&nbsp;разных
+          градиентах:
+          будь&nbsp;то горы или равнины. Гонки проходят в&nbsp;командном пелотоне, но&nbsp;тренироваться можно
+          и&nbsp;самостоятельно.</p>
+        <ul class="gradients__list">
+          <li class="gradients__item">
+            <div class="gradients__label"></div>
+            <img src="./images/gradients-track-1.jpg" alt="Фотография трассы в горах" class="gradients__image">
+          </li>
+          <li class="gradients__item"><img src="./images/gradients-track-2.jpg" alt="Фотография равнинной трассы"
+              class="gradients__image"></li>
+        </ul>
+        <div class="gradients__buttons">
+          <button class="gradients__button gradients__button_direction_left button"></button>
+          <button class="gradients__button gradients__button_direction_right button"></button>
+        </div>
       </section>
       <!-- /gradients -->
       <!-- bikes -->
@@ -100,15 +117,34 @@
       </section>
       <!-- /bikes -->
       <!-- trainings -->
-      <section class="trainings">
-
+      <section class="trainings" id="trainings">
+        <h2 class="trainings__title">Тренировки</h2>
+        <div class="trainings__text">
+          <p class="trainings__paragraph">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot,
+            а&nbsp;записать эти тренировки поможет приложение Strava, а&nbsp;также это приложение позволит построить
+            тренировочный план.</p>
+          <ul class="trainings__list">
+            <li class="training__item"><a href="https://www.strava.com" class="trainings__link" target="_blank"
+                rel="noopener noreferrer">Strava</a>
+            </li>
+            <li class="training__item">
+              <a href="https://www.komoot.com" class="trainings__link" target="_blank" rel="noopener noreferrer">
+                Komoot</a>
+            </li>
+          </ul>
+        </div>
+        <img src="./images/trainings-track.jpg" alt="Фото трассы для тренировок" class="trainings__image">
       </section>
       <!-- /trainings -->
     </main>
     <!-- /main -->
     <!-- footer -->
     <footer class="footer">
-
+      <h3 class="footer__title">Подпишитесь на рассылку —</h3>
+      <form class="footer__subscribe">
+        <input class="footer__subscribe-field" type="email" name="email" value="" placeholder="Ваш e-mail">
+      </form>
+      <p class="footer__copyright">© Road Club 2021</p>
     </footer>
     <!-- /footer -->
   </div>

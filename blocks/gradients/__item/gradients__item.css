@@ -1,0 +1,12 @@
+.gradients__item {
+  width: 650px;
+  height: 400px;
+  position: relative;
+}
+
+@media screen and (max-width: 320px) {
+  .gradients__item {
+    min-width: 284px;
+    height: 175px;
+  }
+}
