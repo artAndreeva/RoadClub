@@ -7,7 +7,7 @@
   color: #151515;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px) {
   .qoute__name {
     font-size: 14px;
     line-height: 22px;

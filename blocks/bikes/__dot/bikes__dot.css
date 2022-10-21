@@ -1,0 +1,12 @@
+.bikes__dot {
+  width: 4px;
+  height: 4px;
+  background: #cacaca;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.bikes__dot:hover {
+  background: crimson;
+  transition: .5s;
+}

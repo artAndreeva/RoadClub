@@ -1,0 +1,25 @@
+.bikes__card {
+  padding: 86px 0 0;
+}
+
+.bikes__card:hover {
+  transform: scale(105%);
+}
+
+@media (max-width: 768px) {
+  .bikes__card:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 625px) {
+  .bikes__card {
+      padding: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .bikes__card:nth-child(n+2) {
+    display: none;
+  }
+}
