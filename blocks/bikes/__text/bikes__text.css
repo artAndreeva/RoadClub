@@ -6,16 +6,28 @@
   color: #151515;
   text-decoration: none;
   margin: 0;
+  padding-left: 5px;
 }
 
 .bikes__card-link:hover .bikes__text {
-  color: crimson;
+  color: #FF3D00;
 }
 
 @media (max-width: 425px) {
   .bikes__text {
+    padding-left: 0;
     font-size: 14px;
     line-height: 18px;
     text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 320px) {
+  .bikes__text {
+    left: 70px;
   }
 }

@@ -7,6 +7,12 @@
   gap: 80px;
 }
 
+@media (max-width: 1280px) {
+  .quote {
+    grid-template-columns: 550px 1fr;
+  }
+}
+
 @media (max-width: 1024px) {
   .quote {
     padding: 120px 0 60px 0;
@@ -14,8 +20,16 @@
   }
 }
 
+@media (max-width: 950px) {
+  .quote {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+}
+
 @media (max-width: 768px) {
   .quote {
+    padding-top: 60px;
     gap: 40px;
   }
 }
@@ -24,7 +38,5 @@
 @media (max-width: 425px) {
   .quote {
     padding: 40px 0 80px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, auto);
   }
 }

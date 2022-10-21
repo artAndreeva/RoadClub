@@ -1,9 +1,9 @@
 .quote__img {
   width: 100%;
-  max-width: 650px;
   max-height: 460px;
   object-fit: cover;
   grid-row: span 2;
+  display: block;
 }
 
 @media (max-width: 1024px) {

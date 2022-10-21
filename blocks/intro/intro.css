@@ -17,8 +17,15 @@
 
 @media screen and (max-width: 768px) {
   .intro {
+    padding-top: 60px;
+    padding-bottom: 60px;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .intro {
     padding-top: 40px;
     padding-bottom: 40px;
     row-gap: 40px;

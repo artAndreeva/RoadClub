@@ -8,3 +8,11 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 425px) {
+  .bikes__image {
+    margin-bottom: 0;
+    height: 306px;
+    object-fit: contain;
+    object-position: top;
+  }
+}
