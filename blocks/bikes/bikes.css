@@ -1,0 +1,15 @@
+.bikes {
+  padding: 60px 120px 60px 0;
+}
+
+@media (max-width: 768px) {
+  .bikes {
+    padding: 60px 60px 60px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .bikes {
+    padding: 60px 0;
+  }
+}

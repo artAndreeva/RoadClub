@@ -1,0 +1,16 @@
+.bikes__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 54px;
+}
+
+@media (max-width: 625px) {
+.bikes__header {
+    padding: 40px 0 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-top: 1px solid #e3e3e3;
+  }
+}

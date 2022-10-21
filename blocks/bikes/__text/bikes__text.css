@@ -1,0 +1,21 @@
+.bikes__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #151515;
+  text-decoration: none;
+  margin: 0;
+}
+
+.bikes__card-link:hover .bikes__text {
+  color: crimson;
+}
+
+@media (max-width: 425px) {
+  .bikes__text {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,14 @@
+.bikes__links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  .bikes__links {
+    display: none;
+  }
+}
