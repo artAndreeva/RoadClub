@@ -5,14 +5,14 @@
 
 
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 1024px) {
   .main {
-    padding-left: 60px;
+    padding: 0 60px 0;
   }
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .main {
     padding-left: 18px;
     padding-right: 18px;

@@ -9,13 +9,14 @@
 
 @media (max-width: 1024px) {
   .quote {
+    padding: 120px 0 60px 0;
     gap: 40px;
   }
 }
 
 @media (max-width: 768px) {
   .quote {
-    padding: 120px 60px 60px 0px;
+    gap: 20px;
   }
 }
 

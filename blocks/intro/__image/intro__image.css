@@ -5,11 +5,16 @@
   grid-row: 1 / -1;
 }
 
-@media screen and (max-width: 940px) {
+/* @media screen and (max-width: 1024px) and (min-width: 768px) {
+  .intro__image {
+    max-width: 510px;
+  }
+} */
+
+@media screen and (max-width: 768px) {
   .intro__image {
     grid-column: 1;
     grid-row: 2;
-    padding-left: 30px;
     box-sizing: border-box;
   }
 }

@@ -1,6 +1,6 @@
 .gradients__item {
-  width: 650px;
-  height: 400px;
+  max-width: 650px;
+  max-height: 400px;
   position: relative;
 }
 
