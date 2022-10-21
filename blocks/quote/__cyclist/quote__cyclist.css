@@ -1,4 +1,4 @@
-.qoute__cyclist {
+.quote__cyclist {
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 768px) {
-  .qoute__cyclist {
+  .quote__cyclist {
     font-size: 10px;
     line-height: 16px;
   }

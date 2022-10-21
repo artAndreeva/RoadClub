@@ -1,4 +1,4 @@
-.qoute__img {
+.quote__img {
   width: 100%;
   max-width: 650px;
   max-height: 460px;
@@ -7,13 +7,13 @@
 }
 
 @media (max-width: 1024px) {
-  .qoute__img {
+  .quote__img {
     max-width: 500px;
   }
 }
 
 @media (max-width: 425px) {
-  .qoute__img {
+  .quote__img {
     border-top: 1px solid #E3E3E3;
     padding-top: 20px;
   }

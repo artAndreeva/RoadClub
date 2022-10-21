@@ -1,4 +1,4 @@
-.qoute__name {
+.quote__name {
   margin: 0;
   font-style: normal;
   font-weight: 500;
@@ -8,7 +8,7 @@
 }
 
 @media (max-width: 768px) {
-  .qoute__name {
+  .quote__name {
     font-size: 14px;
     line-height: 22px;
   }

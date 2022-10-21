@@ -1,7 +1,7 @@
 .quote {
   padding: 120px 120px 60px 0px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 650px 1fr;
   grid-template-rows: repeat(2, auto);
   grid-auto-flow: column;
   gap: 80px;
@@ -16,14 +16,14 @@
 
 @media (max-width: 768px) {
   .quote {
-    gap: 20px;
+    gap: 40px;
   }
 }
 
 
 @media (max-width: 425px) {
   .quote {
-    padding: 40px 0;
+    padding: 40px 0 80px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
   }

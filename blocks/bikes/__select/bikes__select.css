@@ -15,14 +15,15 @@
     background: #f4f4f4;
     border: 1px solid #e3e3e3;
     border-radius: 2px;
+    padding: 0 12px;
   }
 }
 
 .bikes__select:hover {
-  border: 1px solid crimson;
+  border: 1px solid #ff3d00;
 }
 
 .bikes__select:focus {
   outline: 0;
-  border: 1px solid crimson;
+  border: 1px solid #ff3d00;
 }

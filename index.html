@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Интернет-магазин велосипедов">
+  <meta name="description" content="Про велосипеды">
   <meta name="keywords" content="шоссе грэвел тт">
   <meta name="author" content="Марсель Сагитов и Светлана Андреева">
   <link rel="stylesheet" href="./pages/index.css">
@@ -17,7 +17,7 @@
   <div class="page">
     <!-- header -->
     <header class="header">
-      <nav class="header_menu">
+      <nav class="header__menu">
         <div class="header__hamburger"></div>
         <ul class="header__links">
           <li class="header__links-item"><a href="#gradients" class="header__link">Покрытия и градиенты</a></li>
@@ -43,13 +43,13 @@
       </section>
       <!-- /intro -->
       <!-- quote -->
-      <section class="quote">
-        <img src="./images/quote-track.jpg" alt="Велосипедный трек в горах" class="qoute__img">
+      <section class="quote" aria-label="Цитата Эдди Меркса">
+        <img src="./images/quote-track.jpg" alt="Велосипедный трек в горах" class="quote__img">
         <blockquote class="quote__cite">«Катайся много или мало, долго или коротко, как хочешь - но катайся»
         </blockquote>
-        <div class="qoute__text">
-          <p class="qoute__name">Эдди Меркс</p>
-          <p class="qoute__cyclist">Велогонщик</p>
+        <div class="quote__text">
+          <p class="quote__name">Эдди Меркс</p>
+          <p class="quote__cyclist">Велогонщик</p>
         </div>
       </section>
       <!-- /quote -->
@@ -75,13 +75,13 @@
       </section>
       <!-- /gradients -->
       <!-- bikes -->
-      <section class="bikes">
+      <section class="bikes" id="bikes">
         <div class="bikes__header">
           <h2 class="bikes__title">Велосипеды</h2>
           <ul class="bikes__links">
-            <li><a href="#" class="bikes__link bikes__link_active">Шоссе</a></li>
-            <li><a href="#" class="bikes__link">Грэвел</a></li>
-            <li><a href="#" class="bikes__link">TT</a></li>
+            <li class="bikes__links-item"><a href="#" class="bikes__link bikes__link_active">Шоссе</a></li>
+            <li class="bikes__links-item"><a href="#" class="bikes__link">Грэвел</a></li>
+            <li class="bikes__links-item"><a href="#" class="bikes__link">TT</a></li>
           </ul>
           <select name="select" class="bikes__select">
             <option value="highway" class="bikes__option" selected>Шоссе</option>
@@ -91,20 +91,25 @@
         </div>
         <ul class="bikes__cards">
           <li class="bikes__card">
-            <a href="#" class="bikes__card-link">
-              <img src="./images/bikes-cervelo-caledonia-5.jpg" class="bikes__image" alt="Велосипед Cervelo Caledonia-5">
+            <a href="https://www.sigmasports.com/item/Cervelo/Caledonia-5-Ultegra-Disc-Road-Bike-2021/RDEN "
+              class="bikes__card-link" target="_blank" rel="noopener noreferrer">
+              <img src="./images/bikes-cervelo-caledonia-5.png" class="bikes__image"
+                alt="Велосипед Cervelo Caledonia-5">
               <p class="bikes__text">Cervelo Caledonia-5</p>
             </a>
           </li>
           <li class="bikes__card">
-            <a href="#" class="bikes__card-link">
-              <img src="./images/bikes-cannondale-systemsix-himod.jpg" class="bikes__image" alt="Велосипед Cannondale Systemsix Himod">
+            <a href="https://www.sigmasports.com/item/Cannondale/SystemSix-HiMOD-Ultegra-Di2-Disc-Road-Bike-2021/R82J"
+              class="bikes__card-link" target="_blank" rel="noopener noreferrer">
+              <img src="./images/bikes-cannondale-systemsix-himod.png" class="bikes__image"
+                alt="Велосипед Cannondale Systemsix Himod">
               <p class="bikes__text">Cannondale Systemsix Himod</p>
             </a>
           </li>
           <li class="bikes__card">
-            <a href="#" class="bikes__card-link">
-              <img src="./images/bikes-trek-domane-sl-7.jpg" class="bikes__image" alt="Велосипед Trek Domane SL-7">
+            <a href="https://www.sigmasports.com/item/Trek/Domane-SL-7-Force-eTap-AXS-Disc-Road-Bike-2021/RULF"
+              class="bikes__card-link" target="_blank" rel="noopener noreferrer">
+              <img src="./images/bikes-trek-domane-sl-7.png" class="bikes__image" alt="Велосипед Trek Domane SL-7">
               <p class="bikes__text">Trek Domane SL-7</p>
             </a>
           </li>
@@ -124,10 +129,10 @@
             а&nbsp;записать эти тренировки поможет приложение Strava, а&nbsp;также это приложение позволит построить
             тренировочный план.</p>
           <ul class="trainings__list">
-            <li class="training__item"><a href="https://www.strava.com" class="trainings__link" target="_blank"
+            <li class="trainings__item"><a href="https://www.strava.com" class="trainings__link" target="_blank"
                 rel="noopener noreferrer">Strava</a>
             </li>
-            <li class="training__item">
+            <li class="trainings__item">
               <a href="https://www.komoot.com" class="trainings__link" target="_blank" rel="noopener noreferrer">
                 Komoot</a>
             </li>
